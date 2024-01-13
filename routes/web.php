@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AssistantController;
+use App\Http\Controllers\AssistantAvailabilityController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,4 +20,4 @@ Route::get('/', function () {
 });
 
 Route::resource('assistants', AssistantController::class);
-Route::get('/assistants/{assistant}', [AssistantController::class, 'show'])->name('assistants.show');
+Route::resource('availability', AssistantAvailabilityController::class);

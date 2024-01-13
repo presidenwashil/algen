@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class AssistantAvailability extends Model
 {
-    protected $fillable = ['day', 'session', 'is_available'];
+    protected $fillable = ['assistant_id', 'day', 'session', 'is_available'];
 
     public function assistant()
     {

@@ -23,6 +23,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('assistants.index') }}">Assistant List</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route('availability.index') }}">Availability</a>
+                </li>
             </ul>
         </div>
     </nav>
